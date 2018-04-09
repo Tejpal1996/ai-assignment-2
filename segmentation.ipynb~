@@ -59,7 +59,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "x = np.load('/home/anshul/Desktop/AI_Assignment2')"
+    "x = np.load('/home/sachin/Desktop/AI_Assignment2')"
    ]
   },
   {
@@ -68,7 +68,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "y=np.load('/home/anshul/Desktop/AI_Assignment2')"
+    "y=np.load('/home/sachin/Desktop/AI_Assignment2')"
    ]
   },
   {

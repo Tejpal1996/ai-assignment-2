@@ -96,7 +96,7 @@
     }
    ],
    "source": [
-    "file_root = '/home/anshul/Desktop/AI_Assignment2melanoma'\n",
+    "file_root = '/home/sachin/Desktop/AI_Assignment2melanoma'\n",
     "melanoma_images = []\n",
     "for img in tqdm(os.listdir(file_root)):\n",
     "    path = os.path.join(file_root,img)\n",
@@ -150,7 +150,7 @@
     }
    ],
    "source": [
-    "file_root = '/home/anshul/Desktop/AI_Assignment2/gt'\n",
+    "file_root = '/home/sachin/Desktop/AI_Assignment2/gt'\n",
     "ground_melanoma_images = []\n",
     "for img in tqdm(os.listdir(file_root)):\n",
     "    path = os.path.join(file_root,img)\n",
@@ -317,7 +317,7 @@
     }
    ],
    "source": [
-    "file_root = '/home/anshul/Desktop/AI_Assignment2/gt'\n",
+    "file_root = '/home/sachin/Desktop/AI_Assignment2/gt'\n",
     "ground_melanoma_images = []\n",
     "for img in tqdm(os.listdir(file_root)):\n",
     "    path = os.path.join(file_root,img)\n",
@@ -578,7 +578,7 @@
     }
    ],
    "source": [
-    "file_root = '/home/anshul/Desktop/AI_Assignment2'\n",
+    "file_root = '/home/sachin/Desktop/AI_Assignment2'\n",
     "other_images = []\n",
     "for img in tqdm(os.listdir(file_root)):\n",
     "    path = os.path.join(file_root,img)\n",
@@ -800,7 +800,7 @@
    "outputs": [],
    "source": [
     "\n",
-    "np.save('/home/anshul/Desktop/AI_Assignment2',gt)"
+    "np.save('/home/sachin/Desktop/AI_Assignment2',gt)"
    ]
   },
   {
@@ -809,7 +809,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "np.save('/home/anshul/Desktop/AI_Assignment2',total_images)"
+    "np.save('/home/sachin/Desktop/AI_Assignment2',total_images)"
    ]
   }
  ],
